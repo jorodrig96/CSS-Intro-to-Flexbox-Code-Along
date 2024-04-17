@@ -1,6 +1,6 @@
-* {
+/* * {
   border: 1px solid teal;
-}
+} */
 
 nav {
   /*display: none;*/
@@ -13,11 +13,8 @@ img {
 
 section  {
   display: flex;
-  flex-wrap: wrap;
-  /* justify-content: center; */
-  /* justify-content: space-around; */
-  /* justify-content: space-between; */
-  justify-content: space-evenly;
+  flex-wrap: wrap; /* this allows for each div named card to wrap to the next line */
+  justify-content: space-around;
 }
 
 .container {
@@ -25,9 +22,9 @@ section  {
   justify-content: space-around;
 }
 
-aside {
+aside {             /* allows to center nav*/
   min-width: 20%;
-  display: flex;
+  display: flex;  
   align-items: center;
   justify-content: center;
 }
